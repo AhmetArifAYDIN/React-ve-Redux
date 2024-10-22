@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(el)
 // 4) Bir bileşen oluşturma
 // Prop -> Özelliklerin kısaltması
 // Nesne propa yazılabilir ancak doğrudan ekrana yazdırılamaz. Yani bir değişkeni objeye eşitleyip bunu yazdıramazsınız ancak özellik olarak yazdırabilirsiniz. Örneğin style{{border: 3px solid red }} gibi.
-// autofocus kullanıcı bir web sitesine ilk girdiğinde örneğin bir metin yazacak direk alabiliriz.
+// autofocus kullanıcı bir web sitesine ilk girdiğinde örneğin bir metin yazacak direkt alabiliriz.
 
 
 // JSX'e çevirmeden önce yapılacaklar:
@@ -25,7 +25,7 @@ const root = ReactDOM.createRoot(el)
 Yukardaki örnekteki spellCheck otomatik yazım hatalarını söyleyen bir özelliktir.
 */
 // 4. JSX'de class yerine className kullanılır,
-// 5. JSX'de style verirken html deki gibi "" arasında gibi vermiyoruz onun yerine yukardaki gibi iki obje arasına yazıp her özelliği virgül ile ayırıyoruz ayrıca örneğin html de border-radius ise JSX'de borderRadius örneğin:
+// 5. JSX'de style verirken html deki gibi "" arasında vermiyoruz onun yerine yukardaki gibi iki obje arasına yazıp her özelliği virgül ile ayırıyoruz ayrıca örneğin html de border-radius ise JSX'de borderRadius örneğin:
 /* 
 {{borderRadius: 50px, backgroundColor: red}}
 */
